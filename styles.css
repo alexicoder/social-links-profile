@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype'),
+         url('assets/fonts/static/Inter-Regular.ttf') format('truetype'),
+         url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype'),
+         url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+}
