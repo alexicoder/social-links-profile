@@ -31,7 +31,7 @@ body {
     padding: 2.5em;
     border-radius: 0.625em;
     width: 100%;
-    max-width: 360px;
+    max-width: 375px;
 }
 
 .card-header {
@@ -41,13 +41,13 @@ body {
 
 .author-block-image {
     border-radius: 50%;
-    margin: 0 auto 30px auto;
-    max-width: 100px;
+    margin: 0 auto 25px auto;
+    max-width: 85px;
 }
 
 .author-block-name {
-    font-size: 1.75em;
-    font-weight: 600;
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
+    font-weight: 500;
     margin-bottom: 3px;
 
 }
@@ -55,12 +55,12 @@ body {
 .author-block-location {
     color: var(--green);
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .card-bio {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 1.75em;
 }
 
