@@ -48,7 +48,7 @@ body {
 .author-block-name {
     font-size: 1.75em;
     font-weight: 600;
-    margin-bottom: 0.5px;
+    margin-bottom: 3px;
 
 }
 
@@ -61,6 +61,7 @@ body {
 .card-bio {
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 1.75em;
 }
 
 .social-links-wrapper {
@@ -77,4 +78,5 @@ body {
     color: var(--white);
     background-color: var(--grey);
     border-radius: 8px;
+    font-weight: 600;
 }
