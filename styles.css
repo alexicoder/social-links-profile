@@ -47,5 +47,12 @@ body {
 .author-block-name {
     font-size: 1.75em;
     font-weight: 600;
-    margin-bottom: 0.3125em;
+    margin-bottom: 0.5px;
+
+}
+
+.author-block-location {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 15px;
 }
