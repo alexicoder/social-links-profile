@@ -43,3 +43,9 @@ body {
     margin: 0 auto 30px auto;
     max-width: 100px;
 }
+
+.author-block-name {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-bottom: 0.3125em;
+}
