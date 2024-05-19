@@ -30,3 +30,7 @@ body {
     align-items: center;
     padding: 2.5em;
 }
+
+.author-block-image {
+    border-radius: 50%;
+}
