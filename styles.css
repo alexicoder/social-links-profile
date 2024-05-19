@@ -62,3 +62,10 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+.social-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.625em;
+}
