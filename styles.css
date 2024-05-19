@@ -67,5 +67,14 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 0.625em;
+    gap: 0.9375em;
+}
+
+.social-link-button {
+    text-align: center;
+    padding: 0.625em 0;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--grey);
+    border-radius: 8px;
 }
