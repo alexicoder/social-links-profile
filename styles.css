@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 .card {
@@ -79,4 +80,10 @@ body {
     background-color: var(--grey);
     border-radius: 8px;
     font-weight: 600;
+    transition: all .5s ease;
+}
+
+.social-link-button:hover {
+    background-color: var(--green);
+    color: var(--off-black);
 }
